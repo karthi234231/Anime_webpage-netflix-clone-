@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniWatch</title>
+    <link rel="stylesheet" href="aniwatch.css">
+</head>
+
+<body>
+
+    <header class="showcase">
+        <div class="showcase-top">
+            <h2 class="logo">AniWatch</h2>
+            <a href="#" class="btn btn-round">Sign in</a>
+            <select id="languages">
+                <option>English
+                </option>
+                <option>Hindi</option>
+                <option>Telugu</option>
+                <option>Tamil</option>
+            </select>
+        </div>
+        <div class="showcase-content">
+            <h1>So.. Wanna Watch Anime </h1>
+            <p>WATCH.ANYWHERE.ANYTIME</p>
+            <a href="loginpage.html" class="btn btn-large">
+                Login to AniWatch
+            </a>
+        </div>
+
+    </header>
+    <hr class="hrdiv">
+    <div class="content">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-container">
+            <div class="faq active">
+                <h3 class="faq-title">What is AniWatch?</h3>
+                <p class="faq-text">AniWatch is an amazing anime streaming website. </p>
+                <button class="faq-toggle">
+                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="faq">
+                <h3 class="faq-title">
+                    How much does AniWatch cost?
+                </h3>
+                <p class="faq-text">Aniwatch is an free streaming webpage.streams animes.</p>
+                <button class="faq-toggle">
+                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="faq">
+                <h3 class="faq-title">
+                    Where can I watch?
+                </h3>
+                <p class="faq-text">You can Watch all kind of animes in AniWatch.</p>
+                <button class="faq-toggle">
+                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="faq">
+                <h3 class="faq-title">
+                    What can I watch in AniWatch?
+                </h3>
+                <p class="faq-text">Every anime of all geners will stream in AniWatch</p>
+                <button class="faq-toggle">
+                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="faq">
+                <h3 class="faq-title">Is AniWatch good for kids?</h3>
+                <p class="faq-text">every place where karthik is there that is heaven..</p>
+                <button class="faq-toggle">
+                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <div class="foot">
+        <hr class="hrdiv">
+
+        <footer>
+            <p>Questions? Call <a href="">000-800-919-1694</a>
+                </+p>
+            <div class="sec-1">
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Media Center</a></li>
+                    <li><a href="">Ways to Watch</a></li>
+                    <li><a href="">Cookie Preference</a></li>
+                    <li><a href="">Speed Test</a></li>
+
+                </ul>
+            </div>
+            <div class="sec-2">
+                <ul>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">Investor Relations</a></li>
+                    <li><a href="">Terms of use</a></li>
+                    <li><a href="">Corporate Information</a></li>
+                    <li><a href="">Legal Notices</a></li>
+                </ul>
+            </div>
+            <div class="sec-3">
+                <ul>
+                    <li><a href="">Account</a></li>
+                    <li><a href="">Job</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Security</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+
+
+
+        </footer>
+        <div class="p2">
+
+            <p>Disclaimer: This site does not store any files on its server. All contents are provided
+                by
+                non-affiliated third. <br>
+                Made with &nbsp;&nbsp;<i class="fa-solid fa-heart"></i>&nbsp;&nbsp;for anime users!</p>
+        </div>
+    </div>
+
+
+    <script>
+        const toggles = document.querySelectorAll(".faq-toggle");
+
+        toggles.forEach((toggle) => {
+            toggle.addEventListener("click", () => {
+                toggle.parentNode.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+<script src="https://kit.fontawesome.com/bd154d3f66.js" crossorigin="anonymous"></script>
+
+</html>
